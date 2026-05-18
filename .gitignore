@@ -6,7 +6,7 @@ Thumbs.db
 dist/
 .idea/
 .vscode/
-pages/_backup_*/
+**/_backup_*/
 .stitch/
 skills/
 *.log
