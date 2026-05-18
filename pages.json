@@ -1,0 +1,122 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "今日旅程",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/quiz/quiz",
+			"style": {
+				"navigationBarTitleText": "测验",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/quiz-result/quiz-result",
+			"style": {
+				"navigationBarTitleText": "测验结果",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/statistics/statistics",
+			"style": {
+				"navigationBarTitleText": "学习统计",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/notebook/notebook",
+			"style": {
+				"navigationBarTitleText": "错题本",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/subscribe/subscribe",
+			"style": {
+				"navigationBarTitleText": "订阅",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/backup/backup",
+			"style": {
+				"navigationBarTitleText": "备份",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarTitleText": "账户",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mood/mood",
+			"style": {
+				"navigationBarTitleText": "心情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/notification/notification",
+			"style": {
+				"navigationBarTitleText": "通知",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Duck Path",
+		"navigationBarBackgroundColor": "#fcf9f8",
+		"backgroundColor": "#fcf9f8",
+		"app-plus": {
+			"titleNView": false
+		}
+	},
+	"tabBar": {
+		"color": "#514532",
+		"selectedColor": "#7e5700",
+		"backgroundColor": "#fcf9f8",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tab/home.svg",
+				"selectedIconPath": "static/tab/home-active.svg"
+			},
+			{
+				"pagePath": "pages/notebook/notebook",
+				"text": "错题本",
+				"iconPath": "static/tab/notebook.svg",
+				"selectedIconPath": "static/tab/notebook-active.svg"
+			},
+			{
+				"pagePath": "pages/statistics/statistics",
+				"text": "统计",
+				"iconPath": "static/tab/stats.svg",
+				"selectedIconPath": "static/tab/stats-active.svg"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/tab/profile.svg",
+				"selectedIconPath": "static/tab/profile-active.svg"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+node_modules/
+unpackage/
+.hbuilderx/
+.DS_Store
+Thumbs.db
+dist/
+.idea/
+.vscode/
+pages/_backup_*/
+.stitch/
+skills/
+*.log
+*.tmp
+package-lock.json

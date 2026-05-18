@@ -1,0 +1,121 @@
+/* Duck Path Learning - Design Token Variables */
+
+/* 主色调 - 暖黄色系 */
+$primary: #7e5700;
+$primary-container: #ffb300;
+$on-primary: #ffffff;
+$on-primary-container: #6b4900;
+
+/* 次要色 - 绿色系 */
+$secondary: #006e1c;
+$secondary-container: #91f78e;
+$on-secondary: #ffffff;
+$on-secondary-container: #00731e;
+
+/* 第三色 - 红色系 */
+$tertiary: #bb171c;
+$tertiary-container: #ffaca3;
+$on-tertiary: #ffffff;
+$on-tertiary-container: #a30010;
+
+/* 错误色 */
+$error: #ba1a1a;
+$error-container: #ffdad6;
+$on-error: #ffffff;
+$on-error-container: #93000a;
+
+/* 背景和表面色 */
+$background: #fcf9f8;
+$surface: #fcf9f8;
+$surface-dim: #dcd9d9;
+$surface-bright: #fcf9f8;
+$surface-container-lowest: #ffffff;
+$surface-container-low: #f6f3f2;
+$surface-container: #f0eded;
+$surface-container-high: #eae7e7;
+$surface-container-highest: #e5e2e1;
+$surface-variant: #e5e2e1;
+
+/* 文本色 */
+$on-surface: #1c1b1b;
+$on-surface-variant: #514532;
+$on-background: #1c1b1b;
+
+/* 轮廓色 */
+$outline: #847560;
+$outline-variant: #d6c4ac;
+
+/* 反色 */
+$inverse-surface: #313030;
+$inverse-on-surface: #f3f0ef;
+$inverse-primary: #ffba38;
+
+/* 固定色 */
+$primary-fixed: #ffdeac;
+$primary-fixed-dim: #ffba38;
+$on-primary-fixed: #281900;
+$on-primary-fixed-variant: #604100;
+$secondary-fixed: #94f990;
+$secondary-fixed-dim: #78dc77;
+$on-secondary-fixed: #002204;
+$on-secondary-fixed-variant: #005313;
+$tertiary-fixed: #ffdad6;
+$tertiary-fixed-dim: #ffb4ac;
+$on-tertiary-fixed: #410002;
+$on-tertiary-fixed-variant: #93000d;
+
+/* 表面色调 */
+$surface-tint: #7e5700;
+
+/* uni-app兼容变量 */
+$uni-color-primary: $primary;
+$uni-color-success: $secondary;
+$uni-color-warning: $primary-container;
+$uni-color-error: $error;
+
+/* 文字基本颜色 */
+$uni-text-color: $on-surface;
+$uni-text-color-inverse: $on-primary;
+$uni-text-color-grey: $on-surface-variant;
+$uni-text-color-placeholder: $outline;
+$uni-text-color-disable: $outline-variant;
+
+/* 背景颜色 */
+$uni-bg-color: $surface;
+$uni-bg-color-grey: $surface-container;
+$uni-bg-color-hover: $surface-container-high;
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4);
+
+/* 边框颜色 */
+$uni-border-color: $outline-variant;
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$uni-font-size-sm:12px;
+$uni-font-size-base:14px;
+$uni-font-size-lg:16px;
+
+/* 图片尺寸 */
+$uni-img-size-sm:20px;
+$uni-img-size-base:26px;
+$uni-img-size-lg:40px;
+
+/* Border Radius */
+$uni-border-radius-sm: 2px;
+$uni-border-radius-base: 3px;
+$uni-border-radius-lg: 6px;
+$uni-border-radius-circle: 50%;
+
+/* 水平间距 */
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 4px;
+$uni-spacing-col-base: 8px;
+$uni-spacing-col-lg: 12px;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3;
